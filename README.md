@@ -1,6 +1,6 @@
-# Cloud Vault — Upload & RAG Integration Guide
+# SimplifAI — Upload & RAG Integration Guide
 
-This document describes the upload flow implemented by the Cloud Vault project and how to set up and test it locally and on AWS. It covers both the frontend and backend pieces, the AWS resources you need, the API contract for upload and chat, and verification steps. Follow the steps in order and confirm each step before moving on.
+This document describes the upload flow implemented by the SimplifAI project and how to set up and test it locally and on AWS. It covers both the frontend and backend pieces, the AWS resources you need, the API contract for upload and chat, and verification steps. Follow the steps in order and confirm each step before moving on.
 
 ## Table of contents
 - Overview
@@ -21,7 +21,7 @@ This document describes the upload flow implemented by the Cloud Vault project a
 
 ## Overview
 
-Cloud Vault allows authenticated users to upload PDFs into S3, processes them in the background (text extraction, chunking, embeddings), stores metadata and vectors, and enables an AI chat interface (RAG). The upload flow uses presigned S3 URLs so the file is uploaded directly from the browser.
+SimplifAI allows authenticated users to upload PDFs into S3, processes them in the background (text extraction, chunking, embeddings), stores metadata and vectors, and enables an AI chat interface (RAG). The upload flow uses presigned S3 URLs so the file is uploaded directly from the browser.
 
 This README focuses on the complete upload flow and how the frontend and backend integrate.
 
