@@ -3,7 +3,6 @@
 This document describes the upload flow implemented by the Cloud Vault project and how to set up and test it locally and on AWS. It covers both the frontend and backend pieces, the AWS resources you need, the API contract for upload and chat, and verification steps. Follow the steps in order and confirm each step before moving on.
 
 ## Table of contents
-
 - Overview
 - Architecture (high level)
 - Repo layout (what to look at)
